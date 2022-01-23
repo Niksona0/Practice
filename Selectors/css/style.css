@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* S E L E C T O R S */
+
+* /* Universal Selector */ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body /* Type Selector */ {
+    background-color: rgb(172, 170, 170);
+}
+
+main /* Type Selector */ {
+    background-color: lightgray;
+    margin: 15px;
+}
+
+a /* Type Selector */ {
+    text-decoration: none;
+}
+
+.box-1 /* Class Selector */ {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px 0;
+    margin: 10px;
+}
+
+.cont {
+    margin: 15px;
+}
+
+.cont-3 {
+    background-color: royalblue;
+    width: 200px;
+}
+
+.list-3 {
+    margin: 30px 15px;
+}
+
+#box-2 /* ID Selector */ {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.pseudo-before {
+    background-color: greenyellow;
+    width: 100%;
+    margin: 0;
+}
+
+.pseudo-after {
+    background-color: hotpink;
+    width: 100%;
+    margin: 0;
+}
+
+/* C O M B I N A T O R S */
+
+div.red /* And Selector */ {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+
+span.blue /* And Selector */ {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+ul li /* Descendant Selector */ {
+    margin: 15px;
+    color: red;
+}
+
+div div {
+    margin: 5px;
+}
+
+.list-3 span {
+    color: seagreen;
+}
+
+.list-2 li {
+    color: blue;
+}
+
+.btn-1, .cont-1 /* Or Selector */ {
+    background-color: gray;
+    color: goldenrod;
+}
+
+div b /* Descendant Selector */ {
+    background-color: royalblue;
+}
+
+div > span /* Direct Child */ {
+    color: red !important;
+}
+
+li.item-2 ~ li /* General Sibling */ {
+    background-color: sandybrown;
+}
+
+li.item-2 + li /* Adjacent Sibling */ {
+    background-color: seagreen;
+}
+
+/* P S E U D O   C L A S S E S - state */
+
+ul li:hover {
+    background-color: aqua;
+}
+
+input:focus {
+    background-color: red;
+}
+
+input:required {
+    background-color: blue;
+}
+
+input:disabled {
+    margin: 25px;
+}
+
+/* P S E U D O   C L A S S E S - position */
+
+ul li:first-child {
+    margin-top: 50px;
+}
+
+.list-2 li:first-child {
+    color: red;
+    background-color: royalblue;
+}
+
+.list-2 li:nth-child(2n) {
+    background-color: orangered;
+    color: white;
+}
+
+.list-2 li:nth-child(3) {
+    background-color: green;
+    color: blueviolet;
+}
+
+.list-2 li:last-of-type {
+    background-color: black;
+    color: red;
+}
+
+a:only-child {
+    background-color: royalblue;
+    color: salmon;
+}
+
+.list-3 li:last-of-type {
+    background-color: pink;
+}
+
+.list-3 li:first-of-type {
+    background-color: pink;
+}
+
+.cont-1 div:not(.item) {
+    background-color: goldenrod;
+    color: white;
+}
+
+/* P S E U D O   E L E M E N T S */
+.pseudo-before::before {
+    content: 'Before ';
+    background-color: red;
+}
+
+.pseudo-after::after {
+    content: ' After';
+    background-color: blue;
+}
+
+.required::after {
+    content: '*';
+}
+
+/* A T T R I B U T E */
+[data-red="true"] {
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 15px 50px 30px;
+}
+
+a[href] { /* If a tag contains href attribute */
+    color:red;
+    font-weight: bold;
+}
+
+a[target=_blank] { /* If a has target attr which value is "_blank" */
+    color: blue;
+}
+
+a[href^="https"] { /* If href="" starts with "https" */
+    font-size: 200%;
+}
+
+a[href$="org"] { /* If href="" ends with "org" */
+    text-transform: uppercase;
+}
+
+a[href*="oo"] { /* If href="" contains "oo" */
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap'); /* Import with css */
+
+.text-one {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-two {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-three {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.text-four {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+}

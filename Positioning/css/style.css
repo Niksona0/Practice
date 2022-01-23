@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  background-color:#00AAFF;
+  padding: 5px;
+  position: relative;
+  height: 3000px;
+}
+
+.child {
+  padding: 5px;
+}
+
+.child-1 {
+  background-color:#74ff74;
+
+  /* P O S I T I O N   -   R E L A T I V E */
+  /* position: relative;  Relative to where normaly it would be. 
+  top: 3px;  Positions element 3px to top 
+  right: 5px; */
+    
+  /* P O S I T I O N   -   A B S O U L A T E*/
+  /* position: absolute;    ---     Relative to closest parent ( parent can't have static position ) 
+  top: 5px;   ---    Positions element 5px from top of a body 
+  right: 30px; */
+
+  /* P O S I T I O N   -   F I X E D */
+  /* position: fixed;   -   Positioned based on html element (Stays on screen at same places , even if scrolling )
+  top: 10px;   -   Positions element 10px from top of a body
+  left: 25px; */
+
+  /* P O S I T I O N   -   S T I C K Y */
+  /* position: sticky;   -   Combination of relative and fixed positions
+  top: 0px;   -  Positions element 3px to top  */
+}
+
+.child-2 {
+  background-color:#f87575;
+}
+
+.child-3 {
+  background-color:#ff74e8;
+}
+
+/* S T I C K Y */
+
+nav {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(51, 51, 51);
+  padding: 5px;
+  color: #00FF6C;
+}
+
+body {
+  background-color: #DFDFDF;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  height: 300%;
+}
+
+.content {
+  padding: 10px;
+}
+
+.header-large {
+  color: #00FF6C;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://source.unsplash.com/g5Uh7nP60FA");
+  display: flex;
+  align-items: flex-start;
+}
+

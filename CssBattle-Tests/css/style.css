@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #62306D;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .yellow {
+    background: #F7EC7D;
+  }
+  
+  .red {
+    background: #AA445F;
+  }
+  
+  .orange {
+    background: #E38F66;
+    
+  }
+  
+  .main-cont {
+    width: 300px;
+    height: 100px;
+    position: relative;
+  }
+  
+  .rod {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+  }

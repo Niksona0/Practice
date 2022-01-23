@@ -1,0 +1,18 @@
+/* .name - to select class */
+/* #name - to secelt id */
+
+.main-cont {
+   color:red !important; 
+}
+
+.header {
+   color: orange;  
+}
+
+#nav {
+    background-color: royalblue;
+}
+
+/* It's Going to choose last class from css to style*/
+/* Id is more imoportant than classes */
+/* But if we have !important attribute it's going to choose tag with !important to style not the last one.*/

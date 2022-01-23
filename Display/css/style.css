@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* P R E V I E W */
+#div-1 { /* Div is block level element by default */
+    background-color:red;
+}
+
+#span-1 { /* Span is inline level element by default */
+    background-color:aqua;
+}
+
+img { /* Img is inline-block level element by default */
+    width: 50px;
+    height: 50px;
+}
+
+#span-2 { /* Span is inline level element by default */
+    background-color:purple;
+}
+
+#div-2 { /* Div is block level element by default */
+    background-color:green;
+}
+
+/* C L O N E */
+.div-1 {
+    display: block; /* Takes entire space */
+    background-color:red;
+}
+
+.span-1 {
+    display: inline; /* Takes only needed space (can't change width and height properties) */
+    background-color: aqua;
+}
+
+.box-1 {
+    display: inline-block; /* Takes only needed space (can change width and height properties) */
+    width: 50px;
+    height: 50px;
+    background-color:black;
+}
+
+.span-2 {
+    display: inline; /* Takes only needed space (can't change width and height properties) */
+    background-color:purple;
+}
+
+.div-2 {
+    display: block; /* Takes entire space */
+    background-color:green
+}
+
+/* H I D D E N  &  N O N E */
+.hidden-box, .display_none-box {
+    width: 100%;
+    height: 250px;
+}
+
+.hidden-span, .display_none {
+    display: inline-block;
+    width: 25%;
+    height: 75px;
+    margin: 5px;
+}
+
+.hidden-box {
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.hidden-span-1 {
+    background-color:red;
+}
+
+.hidden-span-2 {
+    visibility: hidden; /* Only removes item visibility, element still takes space */
+}
+
+.hidden-span-3 {
+    background-color:royalblue;
+}
+
+.display_none-box {
+    border: 2px solid blue;
+}
+
+.display_none-span-1 {
+    background-color:red
+}
+
+.display_none-span-2 {
+    display: none; /* Completly removes element from page */
+}
+
+.display_none-span-3 {
+    background-color: royalblue;
+}

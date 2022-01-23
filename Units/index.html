@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice_Units</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Based On Parents Units : % -->
+    <!-- Absolute Units : px -->
+    <!-- 1% is 1% of screen -->
+    <!-- 1 vw is 1% of entire screen ( view )-->
+    <!-- 1 vh is 1% of entire screen ( view )-->
+    <!-- vw,vh is based on entire screen, % is based on relative parent -->
+    <!-- rem - stands for root - is relative to root font size -->
+    <!-- em - is relative to parent font size -->
+    <div class="box fifty-percent">50%</div>
+    <div class="box one-hundred pixels">100px</div>
+    <div class="box fifty-vw">50vw</div>
+    <div class="box fifty-vh">50vh</div>
+    <hr>
+    <div class="parent">
+        <div class="box fifty-percent">50%</div>
+        <div class="box one-hundred pixels">100px</div>
+        <div class="box fifty-vw">50vw</div>
+        <div class="box fifty-vh">50vh</div>
+    </div>
+
+    <div class="one-rem">1rem</div>
+    <div class="one-em">1em</div>
+    <div class="two-rem">2rem</div>
+    <div class="two-em">2em</div>
+    <hr>
+    <div class="parent">
+        <div class="one-rem">1rem</div>
+        <div class="one-em">1em</div>
+        <div class="two-rem">2rem</div>
+        <div class="two-em">2em</div>
+    </div>
+    <hr>
+    <div class="icon-cont">
+        <div class="icon em-icon"></div>
+        <span class="icon-text">1em icon</span>
+    </div>
+    <div class="icon-cont">
+        <div class="icon rem-icon"></div>
+        <span class="icon-text">1rem icon</span>
+    </div>
+</body>
+</html>

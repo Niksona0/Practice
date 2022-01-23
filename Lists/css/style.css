@@ -1,0 +1,34 @@
+.Lists {
+    margin: 30px;
+}
+
+
+#games_list_one {
+    list-style-type: lower-latin;
+}
+
+#games_list_two {
+    list-style-type: upper-roman;
+}
+
+#movies_list_one {
+    list-style: square inside;
+}
+
+#movies_list_two {
+    background-color: chocolate;
+    color: red;
+    list-style-type: lower-roman;
+    list-style-position: outside;
+    padding: 20px;
+}
+
+#movies_list_two li {
+    background-color: royalblue;
+}
+
+/*
+list-style            	   Sets all the properties for a list in one declaration
+list-style-image	       Specifies an image as the list-item marker
+list-style-position	       Specifies the position of the list-item markers (bullet points)
+list-style-type	           Specifies the type of list-item marker*/

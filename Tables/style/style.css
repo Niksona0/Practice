@@ -1,0 +1,42 @@
+* {
+  /* Cleanup */
+  margin: 0; /* Separate items out of border*/
+  padding: 0; /* Separate content inside border*/
+  box-sizing: border-box;
+  overflow-x: hidden; /* Hides x (Horizontal) Scrollbar*/
+  color: black;
+}
+
+table {
+  margin: auto;
+}
+
+th, td {
+  color: white;
+}
+
+table, th, td {
+  border: 1px dashed black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  border-color: rgb(170, 26, 26);
+  background-color: grey;
+  text-align: center;
+}
+
+
+
+/* With the border-style property, you can set the appearance of the border. 
+ 
+dotted  
+dashed  
+solid   
+double 
+groove  
+ridge 
+inset
+outset 
+none
+hidden 
+*/
